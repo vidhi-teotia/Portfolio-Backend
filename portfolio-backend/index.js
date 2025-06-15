@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: "http://localhost:3000", // change this to your frontend URL if deployed
+  origin: "https://vidhi-teotia.github.io", // change this to your frontend URL if deployed
 }));
 app.use(express.json());
 
